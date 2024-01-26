@@ -1,3 +1,28 @@
 @import "abstract/variables";
 @import 'bootstrap/scss/bootstrap.scss';
 @import "abstract/base";
+
+.modal_btn_a {
+    background-color: $modalA;
+    color: white;
+    &:hover {
+      border-color: $modalA;
+    }
+  }
+  .modal_btn_b {
+    background-color: $modalB;
+    color: white;
+    &:hover {
+      border-color: $modalB;
+    }
+  }
+  .modal_btn_c{
+    background-color: white;
+    border-color: $modalA;
+    &:hover {
+      border-color: $modalA;
+    }
+  }
+.cursor-pointer {
+    cursor: pointer;
+}
